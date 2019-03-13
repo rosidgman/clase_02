@@ -11,7 +11,7 @@ https://developer.mozilla.org/es/docs/Web/CSS/At-rule#Grupos_de_Reglas_Condicion
 
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
-@keyframes agua {
+@keyframes blibli {
   from {
     background: #4db6ac;
   }
@@ -28,9 +28,9 @@ body {
   line-height: 1.75;
   overflow-x: hidden;
   /* a continuación llamaré a la animación definada más arriba */
-  animation-name: agua; 
+  animation-name: blibli; 
   animation-duration: 5s;
-  animation-timing-function: ease;
+  animation-timing-function: ease-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   /* más sobre animación en https://developer.mozilla.org/es/docs/Web/CSS/animation */
@@ -42,7 +42,9 @@ a{
 }
 
 a:hover{
-  color:#000;
+  color:#F9BE2D;
+  background: red;
+  margin: 2rem;
   text-decoration: none;
 }
 
